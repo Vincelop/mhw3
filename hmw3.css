@@ -1,0 +1,146 @@
+.links {
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.links:hover {
+    background-color: grey;
+    color: white;
+}
+
+.links:link {
+    color: black;
+    text-decoration: none;
+
+}
+
+.results {
+    padding-right: 10em;
+    padding-left: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.results > img {
+    margin-bottom: 3em;
+}
+
+.buttons {
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.horizontal-nav {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 600px;
+    width: 100vw;
+}
+
+header {
+    color: white;
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-image: url("WOODS.jpg");
+    z-index: 0;
+}
+
+#titolo {
+    color: white;
+    margin-top: 150px;
+    margin-left: 30px;
+    line-height: 70px;
+}
+
+#titolo strong {
+    font-size: 100px;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.overlay {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+#main {
+    margin-bottom: 2em;
+}
+
+section {
+    font-family: 'Times New Roman', Times, serif, bold;
+    background-color: #e6e3db;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#categorie h1 strong {
+    font-size: 45px;
+    color: rgb(79, 79, 79);
+}
+
+#main h1 strong {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 70px;
+}
+
+#categorie img {
+    max-width: 85%;
+    max-height: 500px;
+    height: auto;
+}
+
+#categorie p {
+    font-size: 25px;
+    color: rgb(79, 79, 79);
+    margin-bottom: 60px;
+}
+
+
+.elegant-image {
+    border-radius: 10px;
+}
+
+
+#categorie form {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: rgb(45, 45, 45);
+    padding: 80px;
+    text-align: center;
+    color: ghostwhite;
+    font-size: 40px;
+}
+
+footer p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

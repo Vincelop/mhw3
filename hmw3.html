@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photo exhibition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="default.css" rel="stylesheet">
+    <link href="hmw3.css" rel="stylesheet">
+    <script src="hmw3.js" defer></script>
+</head>
+<body>
+<header>
+    <div class='overlay'></div>
+    <nav class="horizontal-nav" style="padding-top: 2em">
+        <a class="links buttons">Home</a>
+        <a class="links buttons">About me</a>
+        <a class="links buttons">Landscapes</a>
+        <a class="links buttons">Details</a>
+        <a class="links buttons">Portraits</a>
+    </nav>
+    <div id="titolo">
+        <h1>
+            <strong>Flaward</strong><br>
+            <em>Photographer</em>
+        </h1>
+    </div>
+</header>
+
+<section id="categorie">
+    <div id="main">
+        <h1><strong>ENJOY THE FUTURE</strong></h1>
+        <p>Choose your favourite category</p>
+        <a class="links buttons"
+           href="https://unsplash.com/oauth/authorize?client_id=AWBrstkMO9rbbO4gdcZ1rlTQ2XqcxAatQngyq6wHdBk&redirect_uri=https://photo-exhibition.000webhostapp.com&response_type=code&scope=public+read_user+read_photos+write_likes">
+            Log on Unsplash</a>
+    </div>
+
+    <div>
+        <img class="panorami elegant-image" src="Landscapes.jpg">
+        <h1><strong>Landscapes </strong></h1>
+        <p><em>Various pics of natural portraits</em></p>
+        <form class="ricerca">
+            <input placeholder='Search some landscapes' type='search'>
+            <input type="submit" value="Cerca">
+        </form>
+        <div class="results">
+        </div>
+    </div>
+
+
+    <div>
+        <img class="dettagli elegant-image" src="Details.jpg">
+        <h1><strong> Details</strong></h1>
+        <p><em>Watch some of the most incredible everyday details </em></p>
+
+        <form class="ricerca">
+            <input placeholder='Search some details' type='search'>
+            <input type="submit" value="Cerca">
+        </form>
+        <div class="results">
+        </div>
+    </div>
+
+    <div>
+        <img class="primi_piani elegant-image" src="Primo piano.jpg">
+        <h1><strong>Portraits</strong></h1>
+        <p><em>Observe natural everydays beauties</em></p>
+
+        <form class="ricerca">
+            <input placeholder='Search some portraits' type='search'>
+            <input id="submit" type="submit" value="Cerca">
+        </form>
+        <div class="results">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <address><strong>Vincent Loparo</strong></address>
+    <p>1000007895</p>
+</footer>
+</body>
+</html>
